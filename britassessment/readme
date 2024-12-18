@@ -1,0 +1,27 @@
+# brit-insurance-tests
+
+## Requirements
+
+- Python 3.8+
+- ChromeDriver (for Selenium tests)
+
+## Installation
+
+
+ Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running Tests
+
+### UI Tests
+To run the UI test:
+```bash
+pytest ui_tests/test_ui_search.py
+```
+
+### API Tests
+To run the API tests:
+```bash
+pytest api_tests/test_api_patch.py
